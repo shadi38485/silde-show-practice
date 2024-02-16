@@ -1,0 +1,6 @@
+.images-box img{
+    display: none;
+}
+.images-box :first-child{ display: block;
+
+}
