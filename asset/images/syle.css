@@ -1,6 +1,44 @@
-.images-box img{
+  /* .images-box img{
     display: none;
+} 
+ .images-box :first-child{ 
+    display: block; */
+body{
+  margin: 0;
 }
-.images-box :first-child{ display: block;
 
+ :root {
+  --primary: rgba(24, 8, 44, 0.74);
+}
+
+.images-box img {
+  display: none;
+  height: 500px;
+  width: 100%;
+}
+.images-box img:first-child {
+  display: block;
+}
+h1.title {
+  text-align: center;
+  color: var(--primary);
+}
+.silde-show {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+.controll {
+  position: absolute;
+  top: 47%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.controll button {
+  border-radius: 50%;
+  background-color:white;
+  width: 2rem;
+  height: 2rem;
+  color: var(--primary);
 }
