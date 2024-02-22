@@ -1,13 +1,13 @@
-  /* .images-box img{
+/* .images-box img{
     display: none;
 } 
  .images-box :first-child{ 
     display: block; */
-body{
+body {
   margin: 0;
 }
 
- :root {
+:root {
   --primary: rgba(24, 8, 44, 0.74);
 }
 
@@ -24,7 +24,7 @@ h1.title {
   color: var(--primary);
 }
 .silde-show {
-  width: 70%;
+  width: 50%;
   margin: auto;
   position: relative;
 }
@@ -37,8 +37,28 @@ h1.title {
 }
 .controll button {
   border-radius: 50%;
-  background-color:white;
+  background-color: white;
   width: 2rem;
   height: 2rem;
   color: var(--primary);
+}
+.indicators {
+  position: absolute;
+  bottom: -5rem;
+  width: 100%;
+  text-align: center;
+}
+.indicators span {
+  background-color: rgb(224, 213, 213);
+  padding: 5px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+  opacity: 50%;
+  box-shadow: 0 0 5px 5px rgba(26, 24, 24, 0.475);
+}
+.indicators span :first-child {
+  
+ background-color: black;
+ opacity: 100%;
 }
